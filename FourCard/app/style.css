@@ -8,7 +8,7 @@ body {
 h1 {
   text-align: center;
   padding: 0;
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 200;
   color: hsl(234, 12%, 34%);
   margin-top: 30px;
@@ -18,7 +18,7 @@ h1 {
 h2 {
   text-align: center;
   padding: 0;
-  font-size: 2.2em;
+  font-size: 1.9em;
   margin-top: -20px;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
@@ -27,7 +27,7 @@ h2 {
 h3 {
   text-align: center;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: -15px;
   font-weight: 400;
   color: hsl(234, 12%, 34%);
@@ -37,7 +37,7 @@ h3 {
 h4 {
   text-align: left;
   font-weight: 700;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: -5px;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
@@ -53,64 +53,55 @@ h5 {
   opacity: 0.9;
 }
 
-.card_align {
-  display: flex;
-  flex-direction: column;
-  justify-content: content;
-  align-items: center;
-  font-size: 1em;
+.card_align ul {
+  padding-top: 20px;
+  padding-right: 150px;
+  max-width: 80%;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 0;
+  grid-template: repeat(4, 1fr);
+  gap: 50px;
 }
 
-.card_1 {
+.card_teambuilder {
   background-color: white;
   border-top: 5px solid hsl(0, 78%, 62%);
   padding: 20px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
   max-width: 350px;
-  max-height: 350px;
-  margin-top: 30px;
-  position: relative;
+  grid-area: 1/2/3/3;
 }
 
-.card_2 {
+.card_supervisor {
   background-color: white;
   border-top: 5px solid hsl(180, 62%, 55%);
-  position: absolute;
-  top: 400px;
-  left: 70px;
   padding: 20px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
   max-width: 350px;
-  max-height: 350px;
-  align-self: flex-start;
+  grid-area: 2/1/4/2;
 }
 
-.card_3 {
+.card_karma {
   background-color: white;
   border-top: 5px solid hsl(212, 86%, 64%);
-  position: absolute;
-  top: 550px;
   padding: 20px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
   max-width: 350px;
-  max-height: 350px;
+  grid-area: 3/2/5/3;
 }
 
-.card_4 {
+.card_calculator {
   background-color: white;
   border-top: 5px solid hsl(34, 97%, 64%);
   padding: 20px;
-  position: absolute;
-  top: 400px;
-  right: 70px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
   max-width: 350px;
-  max-height: 350px;
-  align-self: flex-end;
+  grid-area: 2/3/4/5;
 }
 
 .card_text {
