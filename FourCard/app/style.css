@@ -37,7 +37,7 @@ h3 {
 h4 {
   text-align: left;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: -5px;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
@@ -55,7 +55,7 @@ h5 {
 
 .card_align ul {
   padding-top: 20px;
-  padding-right: 150px;
+  padding-right: 90px;
   max-width: 80%;
   margin: 0 auto;
   display: grid;
@@ -84,9 +84,9 @@ h5 {
   grid-area: 2/1/4/2;
 }
 
-.card_karma {
+.card_calculator {
   background-color: white;
-  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top: 5px solid hsl(34, 97%, 64%);
   padding: 20px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
@@ -94,9 +94,9 @@ h5 {
   grid-area: 3/2/5/3;
 }
 
-.card_calculator {
+.card_karma {
   background-color: white;
-  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top: 5px solid hsl(212, 86%, 64%);
   padding: 20px;
   border-radius: 6px;
   box-shadow: 2px 15px 15px 2px gainsboro;
@@ -109,5 +109,5 @@ h5 {
 }
 
 img {
-  margin-left: 260px;
+  margin-left: 240px;
 }
